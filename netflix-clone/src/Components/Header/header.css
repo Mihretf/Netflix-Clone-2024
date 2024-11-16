@@ -1,0 +1,74 @@
+/* Outer container (header container) */
+.header_outer_container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Background color set to black */
+    color: white;
+    z-index: 1;
+    min-height: 14vh; /* Adjust the height of the header */
+    padding: 0 20px; /* Padding to give space from the edges */
+  }
+  
+  /* Main container that holds the left and right sections */
+  .header_container {
+    width: 90%; /* Container takes 90% of the available width */
+    display: flex;
+    justify-content: space-between; /* Space between the left and right sections */
+    align-items: center;
+  }
+  
+  /* Left side container (Logo + Navigation Links) */
+  .header_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between the logo and the navigation links */
+  }
+  
+  .header_left img {
+    max-width: 120px; /* Size of the Netflix logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 20px; /* Space between the logo and the first link */
+  }
+  
+  .header_left ul {
+    display: flex;
+    justify-content: space-between; /* Space out the navigation links */
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200%; /* Full width of the left section */
+  }
+  
+  .header_left li {
+    cursor: pointer; /* Make the list items clickable */
+    padding: 5px 15px; /* Add some padding to the items */
+  }
+  
+  /* Right side container (Icons) */
+  .header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space out the icons */
+    width: 10%; /* Right section takes up remaining space */
+  }
+  
+  .header_right ul {
+    display: flex;
+    justify-content: space-between; /* Evenly space the icons */
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Full width of the right section */
+  }
+  
+  .header_right li {
+    cursor: pointer; /* Makes the icons clickable */
+    padding: 5px 15px; /* Optional: Padding between icons */
+  }
+  
+  
