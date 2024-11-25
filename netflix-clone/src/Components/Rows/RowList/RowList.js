@@ -12,35 +12,35 @@ const RowList = () => {
         <Row
         title="TRENDING"
         fetchUrl={requests.fetchTrending}
-        isLargeRow={true}/>
+        isLargeRow={false}/>
         <Row
         title="ACTION MOVIES"
         fetchUrl={requests.fetchActionMovies}
-        isLargeRow={true}/>
+        isLargeRow={false}/>
         <Row
         title="COMEDY MOVIES"
         fetchUrl={requests.fetchComedyMovies}
-        isLargeRow={true}/>
+        isLargeRow={false}/>
         <Row
         title="DOCUMENTARIES"
         fetchUrl={requests.fetchDocumentaries}
-        isLargeRow={true}/>
+        isLargeRow={false}/>
          <Row
         title="HORROR"
         fetchUrl={requests.fetchHorrorMovies}
-        isLargeRow={true}/>
+        isLargeRow={false}/>
          <Row
         title="ROMANCE MOVIES"
         fetchUrl={requests.fetchRomanceMovies}
-        isLargeRow={true}/>
+        isLargeRow={false}/>
          <Row
         title="TV SHOWS"
         fetchUrl={requests.fetchTvShow}
-        isLargeRow={true}/>
+        isLargeRow={false}/>
           <Row
         title="TOP RATED MOVIES"
         fetchUrl={requests.fetchTopRatedMovies} 
-        isLargeRow={true}/>
+        isLargeRow={false}/>
     </div>
   )
 }
